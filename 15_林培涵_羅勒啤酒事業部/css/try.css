@@ -1,0 +1,139 @@
+.text {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: wheat;
+    text-decoration: none;
+}
+
+
+/* 區塊01 */
+
+.block01 {
+    background-color: rgb(49, 38, 29);
+    height: 230px;
+    width: 100%;
+    /* position: fixed; */
+}
+
+div[class="navbar"] {
+    margin: auto 200px;
+}
+
+
+/* dropdown button */
+
+.dropbtn {
+    background-color: rgb(49, 38, 29);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.whiteline {
+    margin-left: 225px;
+    margin-right: 225px;
+    color: white;
+    border-bottom: solid white 1px;
+    margin-bottom: 20px;
+}
+
+.block01_1 .text {
+    text-align: center;
+    line-height: 90%;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: rgb(49, 38, 29);
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+}
+
+footer .text {
+    text-align: center;
+}
+
+.footer>small {
+    display: block;
+}
+
+
+/* Back to top */
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 120px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgba(rgb(88, 79, 79), rgb(139, 145, 139), rgb(111, 111, 116), 0.3);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
