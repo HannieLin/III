@@ -1,0 +1,49 @@
+.block02 {
+    /* width: 100vw; */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+    top: 10%;
+    left: 40%;
+}
+
+.logo>img {
+    width: 200px;
+    height: 200px;
+}
+
+.slogan {
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 35%;
+}
+
+.signin {
+    width: 300px;
+    position: relative;
+    top: 10%;
+    left: 38%;
+}
+
+.btn {
+    position: relative;
+    top: 5%;
+    left: 40%;
+}
+
+h2 {
+    position: relative;
+    top: 25%;
+    left: 32%;
+}
+
+
+/* #btn {
+    color: tomato;
+    font-weight: bold;
+} */

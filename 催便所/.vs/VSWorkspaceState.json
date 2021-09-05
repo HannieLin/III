@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\adminPage",
+    "\\adminPage\\Toilet",
+    "\\adminPage\\Toilet\\views",
+    "\\userPage_html",
+    "\\userPage_html\\toilet",
+    "\\userPage_NodeJS",
+    "\\userPage_NodeJS\\public",
+    "\\userPage_NodeJS\\views"
+  ],
+  "SelectedNode": "\\userPage_html\\toilet\\index.html",
+  "PreviewInSolutionExplorer": false
+}

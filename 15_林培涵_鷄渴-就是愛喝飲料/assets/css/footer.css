@@ -1,0 +1,35 @@
+.block03 {
+    background-color: tomato;
+    height: 150px;
+    width: 100vw;
+}
+
+.block03 div {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.btlogo {
+    /* border: solid black; */
+    height: 50px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.applink {
+    /* border: solid black; */
+    height: 100px;
+    width: 100px;
+}
+
+.connection {
+    /* border: solid black; */
+    height: 100px;
+    width: 300px;
+    float: right;
+}
+
+p {
+    line-height: 10px;
+    color: white;
+}

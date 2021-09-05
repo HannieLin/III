@@ -1,0 +1,26 @@
+.col-md-6 div {
+    border: solid 1px rgb(195, 207, 219);
+    box-shadow: 5px 5px 10px rgb(175, 167, 167);
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+tr:nth-child(2n+1)>td {
+    background: rgba(255, 99, 71, 0.2)
+}
+
+h2 {
+    text-align: center;
+}
+
+.large {
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.large p {
+    justify-content: center;
+}
